@@ -1,0 +1,39 @@
+table {
+    padding: 10px 20px;
+
+    border-bottom: none;
+    text-align: center;
+}
+
+
+td {
+    border-bottom: 1px solid black !important;
+    padding: 8px 0;
+}
+
+td:first-child {
+    border-left: 1px solid black !important;
+}
+
+td:last-child {
+    border-right: 1px solid black !important;
+}
+
+th {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    padding: 8px 0;
+}
+
+th:first-child {
+    border-left: 1px solid black !important;
+
+}
+
+th:last-child {
+    border-right: 1px solid black !important;
+}
+
+button[type="button"] {
+    background-color: #FF0033;
+}

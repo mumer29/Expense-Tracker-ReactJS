@@ -1,0 +1,43 @@
+.form-fields {
+    display: flex;
+    justify-content: center;
+}
+
+.form-fields div {
+    flex-basis: calc(100%/2);
+}
+
+.form-fields:nth-child(5) {
+    justify-content: left;
+}
+
+.form-fields label {
+    justify-content: left !important;
+    display: inline-block;
+    margin-bottom: 10px !important;
+}
+
+.form-fields input {
+    width: 500px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+form {
+    padding: 50px;
+    border: 1px solid grey;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    color: white;
+    background-color: #2C87F0;
+    padding: 10px 20px;
+    border: none;
+}
